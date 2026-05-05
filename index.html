@@ -2,34 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Profile</title>
-  <link rel="stylesheet" href="style.css">
+  <title>John's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <div class="container">
+  <header>
+    <h1>Ryan 🚀</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <div class="card">
-      <h1>👋 Hi, I'm John</h1>
-      <p>A beginner learning web development with Git & GitHub.</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am learning web development and Git.</p>
+  </section>
 
-      <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Git</span>
-      </div>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
 
-      <button onclick="sayHello()">Say Hello</button>
-    </div>
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>My first web project is this site!</p>
+  </section>
 
-  </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <button onclick="showContact()">Show Email</button>
+  </section>
 
-  <script>
-    function sayHello() {
-      alert("Hello! Welcome to my page 🚀");
-    }
-  </script>
+  <script src="js/script.js"></script>
 
 </body>
 </html>

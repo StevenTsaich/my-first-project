@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 5px;
+}
