@@ -1,48 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>John's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan 2.0 | Matrix67 风</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <div class="page-shell">
+    <main class="terminal">
+      <header class="top-bar">
+        <span>matrix67 仿真</span>
+        <span>ryan@desktop</span>
+      </header>
 
-  <header>
-    <h1>Ryan 2.0 0504 update🚀</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+      <section class="hero">
+        <h1>Ryan 2.0</h1>
+        <p>简洁个人主页 · 极简链接页风格 · 参考 Matrix67</p>
+      </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am learning web development and Git.</p>
-  </section>
+      <section class="links">
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <a href="https://matrix67.com/" target="_blank" rel="noopener">MATRIX67</a>
+      </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
+      <section id="about">
+        <h2>ABOUT</h2>
+        <p>我正在学习网页开发、Git 和界面设计。这个页面以极简链接页为灵感，保留清晰结构与暗色终端感。</p>
+      </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>My first web project is this site!</p>
-  </section>
+      <section id="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <button onclick="showContact()">Show Email</button>
-  </section>
+      <section id="projects">
+        <h2>PROJECTS</h2>
+        <p>这是我的第一个网站项目：一个简洁又现代的首页，具备链接导航和内容介绍。</p>
+      </section>
+
+      <section id="contact">
+        <h2>CONTACT</h2>
+        <button onclick="showContact()">显示邮箱</button>
+      </section>
+    </main>
+  </div>
 
   <script src="js/script.js"></script>
-
 </body>
 </html>
